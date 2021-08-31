@@ -1,6 +1,5 @@
-from aiohttp.web import Application, run_app
+from app.web.app import run_app
 
-app = Application()
 
 if __name__ == '__main__':
-    run_app(app)
+    run_app()
